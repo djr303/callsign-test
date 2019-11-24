@@ -1,26 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Suspense } from 'react'
+import Loader from 'react-loader-spinner'
+import './App.scss'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = () => (
+  <Suspense fallback={<Loader type="MutatingDots" color="#008f4c" height={100} width={100} timeout={3000} />}>
+    <div className="app">
+      <h1>Hello!</h1>
     </div>
-  );
-}
+  </Suspense>
+)
 
-export default App;
+export default App

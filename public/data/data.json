@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Jackie Stewart",
+    "email": "jackie.stewart@a2finance.com",
+    "phone": "+44 779 206 3364",
+    "group": "Administrators",
+    "lastactive": "25/01/2018T23:00:00Z"
+  },
+  {
+    "name": "Lewis Hamilton",
+    "email": "lewis.hamilton@a2finance.com",
+    "phone": "+44 779 206 7748",
+    "group": "Analyst",
+    "lastactive": "17/01/2018T12:18:43Z"
+  },
+  {
+    "name": "Jenson Button",
+    "email": "jenson.button@a2finance.com",
+    "phone": "+44 779 112 2765",
+    "group": "Administrators",
+    "lastactive": "23/01/2018T16:46:10Z"
+  },
+  {
+    "name": "Damon Hill",
+    "email": "damon.hill@a2finance.com",
+    "phone": "+44 782 280 0924",
+    "group": "Approver",
+    "lastactive": "23/01/2018T16:46:01Z"
+  }
+]
